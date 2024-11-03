@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const cors = require('cors');
 
-mongoose.connect('mongodb://localhost/fruitvegmarke');
+mongoose.connect('mongodb://localhost/foxmarket');
 
 app.use(express.json());
 app.use(cors()); // Use the cors middleware
